@@ -17,6 +17,7 @@ public class Main
     {for (int i = 0; i < u.size(); i++)
         {
             out.println((i+1) + ":" + u.get(i).getUserName()); 
+            
 
         }
     } 
@@ -56,6 +57,7 @@ public class Main
             if (memberName.equals(p.get(i).getName()))
             { 
                 p.get(i).printPost(); 
+                break;
 
             } 
 
